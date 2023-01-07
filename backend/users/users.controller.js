@@ -32,7 +32,6 @@ router.post("/login", function (req, res) {
       if (err) {
         throw err;
       }
-      console.log(row)
       if(!row){
         return res.status(404).send("User Not found"); 
       }

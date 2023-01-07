@@ -7,7 +7,6 @@ const db = require("../db/db")
 router.post("/", function (req, res) {
     try{
       const data = req.body;
-      console.log(data)
       let sql = `SELECT * FROM transactions where email=?`
       db.all(sql,[data.email], (err, rows) => {
         if (err) {
@@ -24,7 +23,6 @@ router.post("/", function (req, res) {
 router.post("/add", function (req, res) {
   try{
     const data = req.body;
-    console.log(data)
     const placeholder= '(?, ?, ?)';
     db.run('INSERT INTO transactions(email,amount,category) VALUES '+placeholder, [data.email,data.amount,data.category],function(err){
       if(err){
