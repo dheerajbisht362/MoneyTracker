@@ -45,4 +45,4 @@ App to Tracker all the expenses
 
 
 ## Thank You!
-This is very first project using sqllite with nodejs. Thanks for the opportunity. Would love get feedbacks on this.
+This is very first project using sqllite with nodejs. Thanks for the opportunity. Would love to get feedbacks on this.
