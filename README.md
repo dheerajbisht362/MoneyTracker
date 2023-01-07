@@ -45,5 +45,4 @@ App to Tracker all the expenses
 
 
 ## Thank You!
-This is our very first project Thank you so much for visiting, we would really like to know your reviews and suggestions.
-Thank you...!  
+This is very first project using sqllite with nodejs. Thanks for the opportunity. Would love get feedbacks on this.
